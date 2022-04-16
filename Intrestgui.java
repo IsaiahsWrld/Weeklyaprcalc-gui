@@ -116,10 +116,8 @@ public class Intrestgui extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-				String balance = tfbalance.getText();
-				double balanceint=Integer.parseInt(balance);
-				String apr = tfapr.getText();
-				double aprint=Integer.parseInt(apr);
+				double balanceint = Double.parseDouble(tfbalance.getText());
+				double aprint = Double.parseDouble(tfapr.getText());
 				double weekly = 0.0;
 				
 				
